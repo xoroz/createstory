@@ -16,7 +16,7 @@ Story Creator
         Multiple AI providers through OpenRouter API:
 
 ## Tech Stack
-- Python
+- Python3.13 venv
 - CrewAI 
 
 ## Development Standards

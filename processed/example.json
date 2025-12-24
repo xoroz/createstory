@@ -1,0 +1,38 @@
+{
+  "request_id": "f170e22d-e150-42b1-a72a-b15968109892",
+  "timestamp": "2025-03-22T13:49:06.739768",
+  "parameters": {
+    "age_range": "10-12",
+    "theme": "forest",
+    "theme_description": "mystical magic jungle with magical animals and talking plants, an old tree or magical animal serving as a guide",
+    "lesson": "family importance",
+    "characters": "diego 5, luca 1, random friends, magic talking fairy",
+    "story_about": "adventures of an stray cat that found a new home in the house of diego in the magic jungle of wookanda",
+    "title": "a funny cat",
+    "length": "long",
+    "max_tokens": 4000,
+    "language": "pt",
+    "ai_model": "mistralai/mistral-saba",
+    "enable_audio": true
+  },
+  "prompts": {
+    "system_prompt": "I am a master storyteller for children who creates engaging, age-appropriate stories that captivate young imaginations. I create original stories tailored to specific age groups, incorporating requested themes and characters while ensuring content is safe, educational, and emotionally engaging. I use clear, vivid language appropriate for the child's age with descriptive language that helps children visualize the story. I avoid scary content, mature themes, violence, or inappropriate elements, and I don't use complex vocabulary that would confuse the target age group.\n\nFOR AGE RANGE 10-12:\nUse more sophisticated vocabulary and sentence structures. Characters can show complex emotions and growth. Moral lessons can be more nuanced and thought-provoking.\n\nSTORY STRUCTURE:\nBegin with a clear introduction that establishes the setting and main characters. Create a simple engaging conflict or challenge. Develop the middle section with key events leading toward resolution. Include a satisfying conclusion that resolves the conflict and contains the lesson. End with a warm closing that reinforces the story's message.\n\nLANGUAGE:\nPlease write the story in Portuguese.",
+    "user_message": "Create an engaging children's story for age 10-12 with these main characters: diego 5, luca 1, random friends, magic talking fairy. The story should be set in mystical magic jungle with magical animals and talking plants, an old tree or magical animal serving as a guide and is about: adventures of an stray cat that found a new home in the house of diego in the magic jungle of wookanda. Teach a lesson about family importance. The story should be long (approximately 4000 tokens) with appropriate pacing. IMPORTANT: Use the exact character names consistently throughout the story. Ensure it has a proper beginning, middle, and end, with a satisfying conclusion."
+  },
+  "status": "completed",
+  "backend": "mistral",
+  "completed_at": "2025-03-22T13:50:02.197750",
+  "output_file": "a-funny-cat_20250322135002.html",
+  "audio_file": "f170e22d-e150-42b1-a72a-b15968109892.mp3",
+  "ai_info": {
+    "provider": "Mistralai",
+    "model": "mistral-saba",
+    "full_model_id": "mistralai/mistral-saba"
+  },
+  "timing": {
+    "story_generation_seconds": 10.978765487670898,
+    "audio_generation_seconds": 42.31004571914673,
+    "html_generation_seconds": 6.866455078125e-05,
+    "total_processing_seconds": 53.29007411003113
+  }
+}
