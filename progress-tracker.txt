@@ -1,0 +1,25 @@
+PROJECT PROGRESS TRACKER
+========================
+
+## Project Goals
+- [ ] Goal 1
+- [ ] Goal 2
+- [ ] Goal 3
+
+## Current Sprint
+Started: [DATE]
+Focus: [WHAT YOU'RE WORKING ON]
+
+## Completed Tasks
+- 
+
+## Blockers
+- 
+
+## Next Steps
+1. 
+2. 
+3. 
+
+## Notes
+-
