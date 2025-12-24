@@ -1,0 +1,22 @@
+{
+  "request_id": "test_crewai_001",
+  "timestamp": "2025-12-24T10:00:00.000000",
+  "parameters": {
+    "age_range": "7-9",
+    "theme": "space",
+    "theme_description": "futuristic age with robots, vibrant and colorful universe filled with various friendly alien species, space stations, and wondrous planets each with its own unique environment",
+    "lesson": "friendship",
+    "characters": "max the mouse, stella the star, robot friend",
+    "story_about": "max discovers a magical star that teaches about true friendship",
+    "title": "starlit friendship",
+    "length": "short",
+    "max_tokens": 2000,
+    "language": "en",
+    "ai_model": "google/gemini-3-flash-preview"
+  },
+  "prompts": {
+    "system_prompt": "You are StoryMagic, an expert children's story writer who creates delightful children's stories that are engaging, age-appropriate, and between 500-800 words.",
+    "user_message": "Create an engaging children's story about max the mouse discovering a magical star that teaches about true friendship"
+  },
+  "backend": "openai"
+}

@@ -1,0 +1,63 @@
+analyze_request_task:
+  description: |
+    Analyze the story request JSON: {request_json}
+
+    Extract and analyze key parameters for story generation:
+    - Age range (3-6, 7-9, 10-12 years)
+    - Theme (forest, dinosaur, space, city)
+    - Educational lesson (family importance, friendship, trust, love, honesty, perseverance)
+    - Character descriptions (max 120 chars)
+    - Story length (short 1m, medium 3m, long 5m)
+    - Language (English, Spanish, Italian, Portuguese)
+    - AI model preference
+    - Story about/summary
+
+    Provide a detailed analysis report with all extracted parameters and recommendations for story creation.
+  expected_output: Detailed parameter analysis report with all story requirements clearly outlined
+
+generate_story_task:
+  description: |
+    Based on the analysis: {analysis}
+
+    Create an engaging children's story with the following requirements:
+    - Age-appropriate content and language
+    - Incorporate specified theme and educational lesson
+    - Include character descriptions where provided
+    - Match requested story length
+    - Write in the specified language
+    - Structure: clear beginning, middle, end
+    - Educational value with positive messages
+    - Engaging plot and characters
+
+    Output must be JSON format with keys: "title" and "story"
+  expected_output: Complete children's story in JSON format with "title" and "story" keys
+
+create_html_task:
+  description: |
+    Convert the story result: {story_result} into a professional HTML document.
+
+    Requirements:
+    - Clean, readable HTML structure
+    - Responsive design suitable for various devices
+    - Include story title prominently
+    - Format story content with proper paragraphs and line breaks
+    - Add basic styling for visual appeal
+    - Include metadata (creation date, language)
+    - Ensure UTF-8 encoding for international characters
+  expected_output: Complete HTML document as a string, ready for web viewing
+
+qa_task:
+  description: |
+    Perform quality assurance on the HTML content: {story_result}
+
+    Check for:
+    - Age appropriateness of content and language
+    - Accuracy of theme and lesson incorporation
+    - Story structure and coherence
+    - HTML validity and formatting
+    - Language correctness and grammar
+    - Educational value presence
+    - Character development and engagement
+
+    If everything is good, output the final HTML. If corrections needed, provide the corrected version.
+  expected_output: Final approved HTML content or corrected version
